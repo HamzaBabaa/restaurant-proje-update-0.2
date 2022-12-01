@@ -7,15 +7,24 @@
 
 
 body{
- background-color: rgb(51, 44, 44);
+ background-image: url(/images/kayanarkaplan4.jpg);
+ background-size: cover;
+
 
 }
     
 
 
 /*header bölümü*/
-.up{
+header > nav > a > img{
+    
+    width: 9rem;
+    height:3rem;
 
+
+}
+
+.up{
     display: flex;
     justify-content: space-around;
     margin: 2rem 0rem 2rem 0rem;
