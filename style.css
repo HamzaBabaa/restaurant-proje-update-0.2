@@ -1,85 +1,82 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
 }
+
+
 body{
-    background-image: url(/images/arkaplan\ 2.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+ background-color: rgb(51, 44, 44);
+
 }
+    
+
+
 /*header bölümü*/
-nav{
+.up{
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
+    justify-content: space-around;
+    margin: 2rem 0rem 2rem 0rem;
 }
-nav > a,
-nav > ul > li > a{
-    color: rgb(244, 248, 3);
+
+.up > ul > li > a,
+.up > a{
+
+    color: azure;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
-nav > ul{list-style: none;}
-nav > ul > li{float: left;}
-nav > ul > li > a{
-    float: left;
-    margin-left: 4rem;
-    margin-right: 0.5rem;
+.up > ul{
+     list-style: none;
+     display: flex;
+     gap: 16rem;
+    
+}
+
+/*----------------------*/
+.down{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.down > ul > li > a ,
+.down > a{
+     color: azure;
+     text-decoration: none;
+     text-transform: uppercase;
+     
+
+}
+
+.down > ul{
+  list-style: none;
+  display: flex;
+  gap: 7rem;
+
 }
 
 /*main bölümü*/
-section{
-    display: flex;
-    justify-content: space-between;
-    margin: 10rem;
-    align-items: center;
-}
-section > figure > img{
-    width: 500px;
-    height: auto;
-}
-section > article > h2 , h4{
-    font-size: 25px;
-    color:rgb(244, 248, 3);
-}
+
 
 /*footer bölümü*/
 
 footer{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-
-}
-footer > ul{list-style: none;}
-footer > ul > li{
-    float: left;
-    margin-right: 50vh;
-    margin-top: 8.5vh;
-}
-footer > ul > li > a{
-    float: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-footer > a,
-footer > ul > li > a{
-    color: rgb(244, 248, 3);
-    text-decoration: none;
-    text-transform: uppercase;
-}
-header > nav > a img{ 
-   
-    max-width: 150px;
-    height: auto;
-
-}
-footer > ul > li,
-a > img{
-
-    
+    position: fixed;
+    width: 100%;
+    flex-direction:column;
 }
 
+
+
+footer > article{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+
+}
